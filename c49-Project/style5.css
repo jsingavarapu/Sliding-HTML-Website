@@ -1,0 +1,23 @@
+h1{
+    color:blue
+  }
+  * {
+  border:red;  
+  }
+.item{
+  border-radius: 20px;
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 25px;
+  width:610px;
+  font-family:fantasy;
+}
+.grid{
+justify-content: space-between;
+background-color:#000000;
+padding: 15px;
+}
+  .start{
+    background-color:rgb(51, 180, 169);  
+    justify-content: space-between;
+  }

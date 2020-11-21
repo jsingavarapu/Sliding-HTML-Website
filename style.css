@@ -1,0 +1,94 @@
+
+h1 {
+    color: brown;
+}
+
+
+
+.header{
+    background-color: blue;
+}
+
+html, body{
+    width:100%;
+    height:100%;
+    padding:0;
+    margin: 0px;
+}
+
+slider{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    overflow: hidden;
+    position:absolute;
+
+}
+
+slider > * {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    animation: slide 12s infinite;
+    overflow: hidden;
+}
+slide:nth-child(1){
+    left:0%;
+    animation-delay: -1s;
+    background-image: url(Zelda1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+slide:nth-child(2){
+    left:0%;
+    animation-delay: 2s;
+    background-image: url(Shrine1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(3){
+    left:0%;
+    animation-delay: 5s;
+    background-image: url(Travel3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(4){
+    left:0%;
+    animation-delay: 8s;
+    background-image: url(Monster3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+slide p{
+font-family:Comfortaa;
+font-size: 70px;
+text-align: center;
+width : 100%;
+margin-top:340px;
+color: darksalmon;
+}
+
+
+@keyframes slide{
+    0% { left: 100%; width :100%;}
+    5% {left:0%}
+    25% {left:0%}
+    30% {left:-100%; width:100%}
+    30.0001% {left: - 100%; width: 0%;}
+    
+    100% {left:100%; width: 0%;}
+
+}
+body{
+  background-color: black;  
+}
